@@ -40,7 +40,7 @@ export default function App() {
       <View>
         <Image source={{ uri: selectedImage.localuri }} style={styles.thumbnail} />
         <TouchableOpacity onPress={openShareDialogueAsync} style={styles.buttonShare} >
-          <Text style={styles.shareBText}>Sahre this photo</Text>
+          <Text style={styles.shareBText}>Share this photo</Text>
         </TouchableOpacity>
       </View>
     );
